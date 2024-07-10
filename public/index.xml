@@ -13,9 +13,7 @@
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
       <guid>https://example.org/post/2020/12/01/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <description></description>
     </item>
     
     <item>
@@ -59,12 +57,19 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
     </item>
     
     <item>
-      <title>About Hugo XMin</title>
+      <title>Dr Thiyanga S. Talagala</title>
       <link>https://example.org/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.org/about/</guid>
-      <description>XMin is the first Hugo theme I have designed. The original reason that I wrote it was I needed a minimal example of Hugo themes when I was writing the blogdown book. Basically I wanted a simple theme that supports a navigation menu, a home page, other single pages, lists of pages, blog posts, categories, tags, and RSS. That is all. Nothing fancy. In terms of CSS and JavaScript, I really want to keep them minimal.</description>
+      <description>About Date: July 13, 2024
+Time: 8.00am - 12.00noon
+Mode: via Zoom
+Organizer: Society of Industrial Scholars, University of Sri Jayewardenepura
+Learning objectives At the end of this workshop, you will be able to:
+Create Visualizations with ggplot2.
+Document your work and integrate text, code, and visualizations using R Markdown.
+Pre-workshop activities All participants must install R and RStudio before the workshop. These activities will ensure that you have the necessary software installed and ready for the workshop.</description>
     </item>
     
   </channel>
