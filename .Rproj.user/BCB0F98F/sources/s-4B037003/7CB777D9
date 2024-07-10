@@ -3,7 +3,7 @@
     "path": "~/Lecturer/vizmaster/hugo.yaml",
     "project_path": "hugo.yaml",
     "type": "yaml",
-    "hash": "1601287701",
+    "hash": "1396390732",
     "contents": "",
     "dirty": false,
     "created": 1720629468104.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "18,0",
-        "scrollLine": "13"
+        "cursorPosition": "15,35",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1720629599,
+    "lastKnownWriteTime": 1720632271,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1720629599582,
+    "last_content_update": 1720632271842,
     "read_only": false,
     "read_only_alternatives": []
 }

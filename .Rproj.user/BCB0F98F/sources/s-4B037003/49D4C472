@@ -3,7 +3,7 @@
     "path": "~/Lecturer/vizmaster/content/_index.Rmarkdown",
     "project_path": "content/_index.Rmarkdown",
     "type": "r_markdown",
-    "hash": "1430508008",
+    "hash": "2978055570",
     "contents": "",
     "dirty": false,
     "created": 1720631846213.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "8,246",
-        "scrollLine": "4"
+        "cursorPosition": "28,0",
+        "scrollLine": "19"
     },
     "folds": "",
-    "lastKnownWriteTime": 1720631906,
+    "lastKnownWriteTime": 1720632333,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1720631906007,
+    "last_content_update": 1720632333252,
     "read_only": false,
     "read_only_alternatives": []
 }

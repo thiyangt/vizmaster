@@ -13,7 +13,7 @@ permalinks:
 
 menu:
   main:
-    - name: About
+    - name: Pre-Workshop Activities
       url: "about/"
       weight: 2
 

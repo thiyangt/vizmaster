@@ -3,27 +3,13 @@ author: Data Visualisation with R
 title: Dr Thiyanga S. Talagala
 ---
 
-## About
 
-Date: July 13, 2024
-
-Time: 8.00am - 12.00noon
-
-Mode: via Zoom
-
-Organizer: [Society of Industrial Scholars, University of Sri Jayewardenepura](https://science.sjp.ac.lk/insoc/2024/06/28/data-visualization-with-r-programming-language/)
-
-## Learning objectives
-
-At the end of this workshop, you will be able to:
-
- 1. Create Visualizations with ggplot2.
- 
- 2. Document your work and integrate text, code, and visualizations using R Markdown.
  
 ## Pre-workshop activities
 
 All participants must install R and RStudio before the workshop. These activities will ensure that you have the necessary software installed and ready for the workshop.
+
+> ## If you need any assistance with the installation process, please feel free to contact us via email. For those requiring additional help, we will set up an online help desk on Friday, July 12, with assigned times between 5 PM and 6 PM
  
 ### 1. Install R
 
