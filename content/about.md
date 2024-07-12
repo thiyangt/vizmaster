@@ -27,6 +27,6 @@ All participants must install R and RStudio before the workshop. These activitie
 
 2.2 Follow this [step-by-step guide](https://r4fun.netlify.app/blog/topic1/).
 
-2.3 Watch [this installation video]() for visual instructions.
+2.3 Watch [this installation video](https://www.youtube.com/watch?v=Q1NRj2Dzdn0) for visual instructions.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aRwxsAEoRzs?si=flAckM2UnBSthii9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q1NRj2Dzdn0?si=FWlHB1GHEUQa1YUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

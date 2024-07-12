@@ -5,71 +5,15 @@
     <link>https://example.org/</link>
     <description>Recent content in Home on A minimal Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello R Markdown</title>
-      <link>https://example.org/post/2020/12/01/hello-r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://example.org/post/2020/12/01/hello-r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Another Note on A blogdown Tutorial</title>
-      <link>https://example.org/note/2017/06/14/another-note/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.org/note/2017/06/14/another-note/</guid>
-      <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
-    </item>
-    
-    <item>
-      <title>A Quick Note on Two Beautiful Websites</title>
-      <link>https://example.org/note/2017/06/13/a-quick-note/</link>
-      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.org/note/2017/06/13/a-quick-note/</guid>
-      <description>To me, the two most impressive websites based on blogdown are:
-Rob J Hyndman&amp;rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al. I&amp;rsquo;m sure there will be more.</description>
-    </item>
-    
-    <item>
-      <title>A Plain Markdown Post</title>
-      <link>https://example.org/post/2016/02/14/a-plain-markdown-post/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.org/post/2016/02/14/a-plain-markdown-post/</guid>
-      <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
-1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
-You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Goldmark by default, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>https://example.org/post/2015/07/23/lorem-ipsum/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.org/post/2015/07/23/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Quisque mattis volutpat lorem vitae feugiat.</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dr Thiyanga S. Talagala</title>
       <link>https://example.org/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.org/about/</guid>
-      <description>About Date: July 13, 2024
-Time: 8.00am - 12.00noon
-Mode: via Zoom
-Organizer: Society of Industrial Scholars, University of Sri Jayewardenepura
-Learning objectives At the end of this workshop, you will be able to:
-Create Visualizations with ggplot2.
-Document your work and integrate text, code, and visualizations using R Markdown.
-Pre-workshop activities All participants must install R and RStudio before the workshop. These activities will ensure that you have the necessary software installed and ready for the workshop.</description>
+      <description>Pre-workshop activities All participants must install R and RStudio before the workshop. These activities will ensure that you have the necessary software installed and ready for the workshop.
+If you need any assistance with the installation process, please feel free to contact us via email. For those requiring additional help, we will set up an online help desk on Friday, July 12, with assigned times between 5 PM and 6 PM 1.</description>
     </item>
     
   </channel>
