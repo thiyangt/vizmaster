@@ -19,9 +19,12 @@ menu:
     - name: Packages and Workshop Roadmap
       url: "note/"
       weight: 2
+    - name: Workshop Notes and Slides
+      url: "post/"
+      weight: 3
     - name: Contact
       url: "contact"
-      weight: 3
+      weight: 4
 
 
 params:

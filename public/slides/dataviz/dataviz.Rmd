@@ -1,0 +1,583 @@
+---
+title: "Introduction to Data Visualization"
+subtitle: ""  
+author: 
+  - "Dr Thiyanga Talagala"
+  - "University of Sri Jayewardenepura"
+date: ''
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css, custom2.css]
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+<style type="text/css">
+.remark-slide-content {
+    font-size: 35px;
+}
+</style>
+
+
+```{css, echo = FALSE}
+h1, #TOC>ul>li {
+  color: #006837;
+  font-weight: bold;
+}
+h2, #TOC>ul>ul>li {
+  color:  #006837;
+  #font-family:  "Times";
+  font-weight: bold;
+}
+h3, #TOC>ul>ul>li {
+  color: #ce1256;
+  #font-family:  "Times";
+  font-weight: bold;
+}
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+#style_duo_accent(
+#  primary_color = "#1381B0",
+#  secondary_color = "#FF961C",
+#  inverse_header_color = "#FFFFFF"
+#)
+style_solarized_light(text_font_google   = google_font("Josefin Sans", "400", "400i", "800i", "800"))
+#style_mono_light(
+#  base_color = "#1c5253",
+#  header_font_google = google_font("Josefin Sans"),
+#  text_font_google   = google_font("Josefin Sans", "400", "400i", "800i", "800"),
+#  code_font_google   = google_font("Fira Mono")
+#)
+```
+
+
+
+## Tidy Data
+
+```{r, comment=NA, echo=FALSE, out.width="80%"}
+knitr::include_graphics("tidy-1.png")
+```
+
+
+- Each **variable** is placed in its column
+
+- Each **observation** is placed in its own row
+
+- Each **value** is placed in its own cell
+
+
+---
+
+# packages
+
+
+```{r, comment=NA, message=FALSE, warning=FALSE}
+library(tidyverse) #or library(ggplot2)
+
+
+```
+
+
+---
+class: inverse, center, middle
+background-image: url(dino.png)
+background-size: contain
+
+---
+class: inverse, center, middle
+
+![](https://blog.revolutionanalytics.com/downloads/DataSaurus%20Dozen.gif)
+
+---
+class: inverse, middle, center
+
+# Never trust summary statistics <span style="color:#ff00b3">ALONE </span>
+
+
+
+--
+
+##  Always visualize your data
+
+<!-- http://www.thefunctionalart.com/2016/08/download-datasaurus-never-trust-summary.html
+
+https://cran.r-project.org/web/packages/datasauRus/vignettes/Datasaurus.html
+
+
+https://cran.r-project.org/web/packages/datasauRus/vignettes/Datasaurus.html
+-->
+
+---
+
+# Where have you seen data visualizations?
+
+- Books
+
+- Journals
+
+- Newspapers
+
+- TV advertisements
+
+- Food packagings
+
+- Mobile apps
+
+- NEWS
+
+---
+# Where have you seen data visualizations?
+
+- Books
+
+- Journals
+
+- **Newspapers**
+
+- **TV advertisements**
+
+- **Food packagings**
+
+- **Mobile apps**
+
+- **NEWS**
+
+---
+
+# Where have you seen data visualizations?
+
+- Books
+
+- Journals
+
+- Newspapers
+
+- **TV advertisements**
+
+- Food packagings
+
+- Mobile apps
+
+- NEWS
+
+---
+# Where have you seen data visualizations?
+
+- Books
+
+- Journals
+
+- Newspapers
+
+- TV advertisements
+
+- Food packagings
+
+- **Mobile apps**
+
+- **NEWS**
+
+---
+class: inverse, center, middle
+background-image: url(e1.png)
+background-size: contain
+
+---
+class: inverse, center, middle
+background-image: url(e2.jpg)
+background-size: contain
+
+---
+class: inverse, center, middle
+background-image: url(e3.png)
+background-size: contain
+
+---
+# Why Visualisation?
+
+.pull-left[
+
+```{r}
+iris
+```
+
+
+]
+
+
+.pull-right[
+
+
+
+]
+
+
+
+---
+# Why Visualisation?
+
+.pull-left[
+
+```{r}
+iris
+```
+
+
+]
+
+
+.pull-right[
+
+```{r}
+ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width, col=Species)) + geom_point()
+```
+
+]
+
+
+---
+# What is data visualisation?
+
+
+The visual representation and presentation of data to facilitate understanding.
+
+Andy Kirk
+
+---
+# What is data visualisation?
+
+The **visual representation** and **presentation** of **data** to **facilitate understanding.**
+
+Andy Kirk
+
+---
+
+# What is data visualisation?
+
+The visual representation and presentation of **data** to facilitate understanding.
+
+Andy Kirk
+
+---
+# What is data visualisation?
+
+The **visual representation** and presentation of data to facilitate understanding.
+
+Andy Kirk
+
+- How you are going to plot your data
+
+- Building blocks of charts
+
+    - marks: points, lines or shapes to represent data
+
+    - attributes: visual variations of marks: different scales, positions, sizes
+    
+---
+# What is data visualisation?
+
+The visual representation and **presentation** of data to facilitate understanding.
+
+Andy Kirk
+
+- Design decisions as a means for communicating to others
+
+    - application of interactivity
+
+    - features of annotations
+
+    - legend, titles, scales, caption
+
+    - dimentions of the chart area
+
+---
+
+```{r}
+iris
+```
+
+
+---
+
+.pull-left[
+
+```{r, echo=FALSE,fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_point()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_jitter()
+
+```
+
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_boxplot()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_boxplot(outlier.shape = NA) + geom_jitter()
+
+```
+
+]
+
+---
+
+.pull-left[
+
+```{r, echo=FALSE,fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length, col=Species)) + geom_point()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length, col=Species)) + geom_jitter()
+
+```
+
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length, col=Species)) + geom_boxplot()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length,col=Species)) + geom_boxplot(outlier.shape = NA) + geom_jitter()
+
+```
+
+]
+
+
+---
+
+
+.pull-left[
+
+```{r, echo=FALSE,fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) 
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) 
+
+```
+
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) 
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) 
+
+```
+
+]
+
+
+
+---
+
+.pull-left[
+
+```{r, echo=FALSE,fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_point()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_jitter()
+
+```
+
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) 
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) 
+
+```
+
+]
+
+
+---
+
+.pull-left[
+
+```{r, echo=FALSE,fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_point()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_jitter()
+
+```
+
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_boxplot()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_boxplot(outlier.shape = NA) + geom_jitter()
+
+```
+
+]
+
+---
+
+
+.pull-left[
+
+```{r, echo=FALSE,fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_point()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_jitter()
+
+```
+
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_boxplot()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_boxplot() 
+
+```
+
+]
+
+---
+
+
+
+.pull-left[
+
+```{r, echo=FALSE,fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_point()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_jitter()
+
+```
+
+
+]
+
+.pull-right[
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_boxplot()
+
+```
+
+```{r, echo=FALSE, fig.height=3}
+ggplot(iris, aes(x=Species,
+                 y=Sepal.Length)) + geom_jitter() 
+
+```
+
+]
+
+---
+class: inverse, center, middle
+background-image: url(plotcomponent.png)
+background-size: contain
+
+image source: \url{https://isabella-b.com/blog/ggplot2-theme-elements-reference/}
+---
+class: center, middle
+
+
+All rights reserved by [Thiyanga S. Talagala](https://thiyanga.netlify.com/) and [Priyanga D Talagala](https://prital.netlify.app/)

@@ -5,7 +5,20 @@
     <link>https://vizmaster.netlify.app/</link>
     <description>Recent content in Home on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://vizmaster.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jul 2024 21:49:57 -0700</lastBuildDate><atom:link href="https://vizmaster.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workshop Slides</title>
+      <link>https://vizmaster.netlify.app/post/2024/07/10/workshop-slides/</link>
+      <pubDate>Wed, 10 Jul 2024 21:49:57 -0700</pubDate>
+      
+      <guid>https://vizmaster.netlify.app/post/2024/07/10/workshop-slides/</guid>
+      <description>Introduction to R Studio Click here to view the slides.
+Introduction to RMarkdown Click here to view the slides.
+Data Import and Export Click here to view the slides.
+Data Visualisation </description>
+    </item>
+    
     <item>
       <title>Dr Thiyanga S. Talagala</title>
       <link>https://vizmaster.netlify.app/about/</link>

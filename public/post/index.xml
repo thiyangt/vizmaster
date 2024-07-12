@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Data Visualisation with R</title>
+    <title>Workshop Slides on </title>
     <link>https://vizmaster.netlify.app/post/</link>
-    <description>Recent content in Posts on Data Visualisation with R</description>
+    <description>Recent content in Workshop Slides on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 2015 13:09:13 -0600</lastBuildDate><atom:link href="https://vizmaster.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jul 2024 21:49:57 -0700</lastBuildDate><atom:link href="https://vizmaster.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lorem Ipsum</title>
-      <link>https://vizmaster.netlify.app/post/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      <title>Workshop Slides</title>
+      <link>https://vizmaster.netlify.app/post/2024/07/10/workshop-slides/</link>
+      <pubDate>Wed, 10 Jul 2024 21:49:57 -0700</pubDate>
       
-      <guid>https://vizmaster.netlify.app/post/2015/01/01/lorem-ipsum/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min.</description>
+      <guid>https://vizmaster.netlify.app/post/2024/07/10/workshop-slides/</guid>
+      <description>Introduction to R Studio Click here to view the slides.
+Introduction to RMarkdown Click here to view the slides.
+Data Import and Export Click here to view the slides.
+Data Visualisation </description>
     </item>
     
   </channel>

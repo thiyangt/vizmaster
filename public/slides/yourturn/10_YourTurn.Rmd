@@ -1,0 +1,246 @@
+---
+title: "Data visualization with R-Your Turn"
+subtitle: "IASSL Workshop"
+author: "Dr Thiyanga S. Talagala"
+#institute: "RStudio, PBC"
+date: <span style="color:#8dcefc"> 25-28, May, 2023</span> </br></br>`r knitr::include_graphics("fig/ggplot2.png")` 
+output:
+  xaringan::moon_reader:
+    #css: [default, kunoichi, chocolate-fonts]
+    css: [ "default", "rladies", "rladies-fonts", "xaringan-themer.css"]
+    lib_dir: libs
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%" 
+---
+```{r setup, include=FALSE}
+library(knitr)
+options(htmltools.dir.version = FALSE)
+opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  cache.path = 'cache/',
+  fig.align = 'center',
+  cache = FALSE
+)
+
+library(tidyverse)
+library(patchwork)
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+   base_color = "#025859",
+   link_color = "#4049ad",
+   title_slide_background_color = "#4049ad",
+  inverse_background_color = "#4049ad",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  title_slide_text_color = "#ffea00",
+  inverse_header_color = "#ffea00",
+  header_background_text_color = "#ffea00",
+  base_font_size = "20px",
+  text_font_size = "1.2rem",
+  )
+```
+
+# Your Turn
+
+Open an R Markdown document.
+
+```{r}
+library(countdown)
+
+countdown(minutes = 5, seconds = 00)
+
+```
+
+---
+
+# Load tidyverse 
+
+Load tidyverse on your rmarkdown document.
+
+
+```{r}
+library(countdown)
+
+countdown(minutes = 3, seconds = 00)
+
+```
+
+---
+
+# Load iris dataset
+
+```{r}
+library(countdown)
+
+countdown(minutes = 2, seconds = 00)
+
+```
+
+---
+
+```{r}
+head(iris)
+```
+
+---
+
+```{r}
+summary(iris)
+```
+
+---
+
+
+## Draw a scatterplot between Sepal.Length and Sepal.Width
+
+```{r}
+library(countdown)
+
+countdown(minutes = 5, seconds = 00)
+
+```
+
+
+---
+
+## Colour the points according to species
+
+```{r}
+library(countdown)
+
+countdown(minutes = 5, seconds = 00)
+
+```
+
+---
+
+## Obain a suitable visualisation to represent the relationship between Species type and Petal.Length
+
+```{r}
+library(countdown)
+
+countdown(minutes = 5, seconds = 00)
+
+```
+
+
+---
+
+```{r, echo=FALSE}
+ggplot(iris) +
+  aes(Sepal.Length, Sepal.Width) +
+  geom_point() +
+  labs(x = "Sepal Length") +
+  labs(y = "Sepal Width") +
+  labs(title="The famous iris data") + 
+  labs(subtitle="Data collected by Anderson, Edgar (1935)") +
+  aes(color= Species) 
+
+```
+
+
+```{r}
+library(countdown)
+
+countdown(minutes = 5, seconds = 00)
+
+```
+
+---
+
+```{r}
+ggplot(iris) +
+  aes(Sepal.Length, Sepal.Width) +
+  geom_point() +
+  labs(x = "Sepal Length") +
+  labs(y = "Sepal Width") +
+  labs(title="The famous iris data") + 
+  labs(subtitle="Data collected by Anderson, Edgar (1935)") +
+  aes(color= Species) +
+  theme_bw(base_size=16) 
+```
+
+
+```{r}
+library(countdown)
+
+countdown(minutes = 5, seconds = 00)
+
+```
+
+---
+
+```{r, echo=FALSE}
+ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) + 
+  geom_point() + 
+  geom_smooth()
+```
+
+
+```{r}
+library(countdown)
+
+countdown(minutes = 5, seconds = 00)
+
+```
+
+---
+
+
+```{r, echo=FALSE}
+ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width)) + 
+  geom_point(size = 3) + 
+  geom_smooth(size = 1, se = FALSE) + 
+  facet_wrap(~ Species)
+
+```
+
+
+```{r}
+library(countdown)
+
+countdown(minutes = 5, seconds = 00)
+
+```
+
+---
+
+```{r, echo=FALSE}
+ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width)) + 
+  geom_point(size = 3) + 
+  geom_smooth(size = 1, se = FALSE) + 
+  facet_grid(rows = vars(Species))
+
+```
+
+
+```{r}
+library(countdown)
+countdown(minutes = 5, seconds = 00)
+```
+
+---
+
+```{r, echo=FALSE}
+ggplot(iris,                # Barchart with the default colors of ggplot2
+       aes(x = Species,
+           y = Sepal.Length,
+           fill = Species)) +
+  geom_bar(stat = "identity")
+```
+
+```{r}
+library(countdown)
+countdown(minutes = 5, seconds = 00)
+```

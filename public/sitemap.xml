@@ -2,13 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vizmaster.netlify.app/</loc>
+    <lastmod>2024-07-10T21:49:57-07:00</lastmod>
+  </url><url>
+    <loc>https://vizmaster.netlify.app/post/2024/07/10/workshop-slides/</loc>
+    <lastmod>2024-07-10T21:49:57-07:00</lastmod>
+  </url><url>
+    <loc>https://vizmaster.netlify.app/post/</loc>
+    <lastmod>2024-07-10T21:49:57-07:00</lastmod>
+  </url><url>
     <loc>https://vizmaster.netlify.app/categories/</loc>
   </url><url>
     <loc>https://vizmaster.netlify.app/about/</loc>
   </url><url>
     <loc>https://vizmaster.netlify.app/contact/</loc>
-  </url><url>
-    <loc>https://vizmaster.netlify.app/</loc>
   </url><url>
     <loc>https://vizmaster.netlify.app/note/</loc>
   </url><url>
