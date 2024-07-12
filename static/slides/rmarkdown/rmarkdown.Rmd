@@ -3,7 +3,6 @@ title: <span style="color:#ffc403">Reproducible reporting with RMarkdown</span>
 subtitle: 
 author: <span style="color:#ffc403"><br/>Dr Thiyanga S. Talagala</span>
 institute: <span style="color:#ffc403">University of Sri Jayewardenepura</span>
-date: <span style="color:#ffc403">IASSL Workshop</span>
 output:
   xaringan::moon_reader:
     css: [default, rladies, chocolate-fonts]

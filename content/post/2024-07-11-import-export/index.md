@@ -18,3 +18,4 @@ Click [here](/slides/7dataimport_export/7_import.html) to view the slides.
 
 ## Data Visualisation
 
+Click [here](https://thiyangt.github.io/datavisualisation/week2/#/title-slide) to view the slides.
