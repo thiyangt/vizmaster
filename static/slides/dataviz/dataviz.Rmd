@@ -580,4 +580,4 @@ image source: \url{https://isabella-b.com/blog/ggplot2-theme-elements-reference/
 class: center, middle
 
 
-All rights reserved by [Thiyanga S. Talagala](https://thiyanga.netlify.com/) and [Priyanga D Talagala](https://prital.netlify.app/)
+All rights reserved by [Thiyanga S. Talagala](https://thiyanga.netlify.com/)
