@@ -19,3 +19,8 @@ Click [here](/slides/7dataimport_export/7_import.html) to view the slides.
 ## Data Visualisation
 
 Click [here](https://thiyangt.github.io/datavisualisation/week2/#/title-slide) to view the slides.
+
+
+## Visualisation with equisse
+
+Click [here](https://cran.r-project.org/web/packages/esquisse/vignettes/get-started.html) to view the document.
