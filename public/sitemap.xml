@@ -2,12 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://vizmaster.netlify.app/categories/</loc>
   </url><url>
-    <loc>https://example.org/about/</loc>
+    <loc>https://vizmaster.netlify.app/about/</loc>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://vizmaster.netlify.app/contact/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://vizmaster.netlify.app/</loc>
+  </url><url>
+    <loc>https://vizmaster.netlify.app/note/</loc>
+  </url><url>
+    <loc>https://vizmaster.netlify.app/tags/</loc>
   </url>
 </urlset>
