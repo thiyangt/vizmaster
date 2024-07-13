@@ -17,7 +17,7 @@ image source: https://bookdown.org/wangminjie/R4DS/eda-penguins.html
 
 ## Introduction to R Studio
 
-Click [here](/slides/7dataimport_export/7_import_export.html) to view the slides.
+Click [here](/slides/4Introduction_to_R_and_Rstudio/1_intro_R.html) to view the slides.
 
 ## Introduction to RMarkdown
 
