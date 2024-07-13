@@ -15,7 +15,7 @@ Click [here](/slides/rmarkdown/rmarkdown.html) to view the slides.
 
 ## Data Import and Export
 
-Click [here](/slides/data/pengions.csv) to download data.
+Click [here](/slides/data/penguins.csv) to download data.
 
 Click [here](/slides/7dataimport_export/7_import.html) to view the slides.
 
